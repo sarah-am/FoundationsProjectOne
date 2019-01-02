@@ -59,8 +59,8 @@ def get_total_price(order_list):
             total += signature_price
         if order in original_flavors:
             total += original_price     
-        if order in sorted(menu):
-            total += menu[order] 
+        if order in menu:
+            total += menu[order]
     return total
 
 def accept_credit_card(get_total_price):
