@@ -38,7 +38,6 @@ def is_valid_order(item):
     return True
   else:
     return False
-    print("Our signature flavor cupcake (KD %s each):" % signature_price)
 
 def get_order():
     # order_list = []
